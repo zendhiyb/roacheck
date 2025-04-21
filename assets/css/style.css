@@ -2,4 +2,55 @@
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
+
+body {
+    height: 2000px;
+}
+
+.heading-1 {
+    font-size: 90px;
+    color: black;
+}
+
+.card-heading-one {
+    /* padding-top: 160px; */
+}
+
+.card-heading-two {
+    /* padding-top: 160px; */
+}
+
+.img {
+    position: relative;
+    height: 500px;
+}
+  
+.img::before {
+    content: "";
+    background-image: url('roacheck.png');
+    height: 100%; 
+    background-size: cover;
+    background-position: 0px -60px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: 
+        brightness(35%)
+        blur(0px)
+        saturate(1)
+    ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  
+.img .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
