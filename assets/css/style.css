@@ -10,7 +10,8 @@ body {
 }
 
 .heading-1 {
-    font-size: 90px;
+    font-size: 100px;
+    margin-bottom: 0px;
     color: black;
 }
 
@@ -24,7 +25,7 @@ body {
 
 .img {
     position: relative;
-    height: 500px;
+    height: 600px;
 }
   
 .img::before {
@@ -32,7 +33,7 @@ body {
     background-image: url('roacheck.png');
     height: 100%; 
     background-size: cover;
-    background-position: 0px -60px;
+    background-position: center 20px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     filter: 
@@ -54,3 +55,70 @@ body {
     text-align: center;
 }
 
+.limit-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.limit-title:hover {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
+.heading-2 {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 1055px) {
+
+    .text-about {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .heading-1 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .text-about {
+        font-size: 22px;
+    }
+
+    .heading-2 {
+        text-align: left;
+        padding-top: 6px !important;
+    }
+
+    .btn-figma {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .heading-1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .heading-1 {
+        font-size: 50px;
+        margin-bottom: 7px;
+    }
+
+    .img {
+        position: relative;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .heading-1 {
+        font-size: 40px;
+    }
+}
