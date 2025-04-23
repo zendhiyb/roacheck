@@ -24,6 +24,10 @@ body {
     /* padding-top: 160px; */
 }
 
+.main {
+    margin-top: 60px;
+}
+
 .img {
     position: relative;
     height: 600px;
@@ -56,6 +60,68 @@ body {
     text-align: center;
 }
 
+.img-cover-left {
+    background-size: 90%;
+    background-position: center;
+    height: 400px;
+    filter: 
+        brightness(50%)
+        blur(0px)
+        saturate(1)
+        contrast(110%)
+        grayscale(100%)
+    ;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.img-cover-right {
+    background-size: 210%;
+    background-position: center;
+    height: 600px;
+    filter: 
+        brightness(50%)
+        blur(0px)
+        saturate(1)
+        contrast(110%)
+        grayscale(100%)
+    ;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.img-cover-left:hover {
+    filter: 
+        brightness(80%)
+        blur(0px)
+        saturate(1)
+        contrast(100%)
+    ;
+    background-size: 95%;
+}
+
+.img-cover-right:hover {
+    filter: 
+        brightness(80%)
+        blur(0px)
+        saturate(1)
+        contrast(100%)
+    ;
+    background-size: 220%;
+}
+
+.img-1 {
+    background-image: url('pict1.png');
+}
+
+.img-2 {
+    background-image: url('pict2.png');
+}
+
+.img-3 {
+    background-image: url('pict3.png');
+}
+
 .limit-title {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -72,10 +138,233 @@ body {
     padding-top: 25px;
 }
 
+@media screen and (max-width: 1850px) {
+    .img-cover-right {
+        background-size: 220% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 230% !important;
+    }
+
+    .img-cover-left {
+        background-size: 110% !important;
+    }
+    
+    .img-cover-left:hover {
+        background-size: 120% !important;
+    }
+    
+}
+
+@media screen and (max-width: 1780px) {
+    .img-cover-right {
+        background-size: 230% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 240% !important;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .img-cover-right {
+        background-size: 240% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 250% !important;
+    }
+}
+
+@media screen and (max-width: 1640px) {
+    .img-cover-right {
+        background-size: 250% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 260% !important;
+    }
+
+    .img-cover-left {
+        background-size: 130% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 140% !important;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .img-cover-right {
+        background-size: 260% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 270% !important;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .img-cover-right {
+        background-size: 270% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 280% !important;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .img-cover-right {
+        background-size: 280% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 290% !important;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .img-cover-right {
+        background-size: 290% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 300% !important;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .img-cover-right {
+        background-size: 300% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 310% !important;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .img-cover-right {
+        background-size: 310% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 320% !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .img-cover-right {
+        background-size: 320% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 330% !important;
+    }
+
+    .img-cover-left {
+        background-size: 150% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 160% !important;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .img-cover-right {
+        background-size: 330% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 340% !important;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .img-cover-right {
+        background-size: 340% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 350% !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .img-cover-right {
+        background-size: 360% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 370% !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .img-cover-right {
+        background-size: 360% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 370% !important;
+    }
+
+    .img-cover-left {
+        background-size: 170% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 180% !important;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .img-cover-right {
+        background-size: 380% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 390% !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .img-cover-right {
+        background-size: 400% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 410% !important;
+    }
+}
+
 @media screen and (max-width: 1055px) {
 
     .text-about {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .img-cover-right {
+        background-size: 410% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 420% !important;
+    }
+
+    .img-cover-left {
+        background-size: 170% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 180% !important;
     }
 }
 
@@ -98,11 +387,64 @@ body {
     .btn-figma {
         text-align: left;
     }
+
+    .img-cover-right {
+        background-size: 280% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 290% !important;
+    }
+
+    .img-cover-left {
+        background-size: 100% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 110% !important;
+    }
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 880px) {
+    .img-cover-left {
+        background-size: 120% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 130% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .heading-1 {
         font-size: 70px;
+    }
+
+    .img-cover-right {
+        background-size: 130% !important;
+        height: 400px !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 140% !important;
+    }
+
+    .img-cover-left {
+        background-size: 150% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 160% !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .img-cover-left {
+        background-size: 170% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 180% !important;
     }
 }
 
@@ -116,10 +458,78 @@ body {
         position: relative;
         height: 400px;
     }
+
+    .img-cover-right {
+        background-size: 150% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 160% !important;
+    }
+
+    .img-cover-left {
+        background-size: 180% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 190% !important;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .img-cover-right {
+        background-size: 170% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 180% !important;
+    }
+
+    .img-cover-left {
+        background-size: 220% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 230% !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .img-cover-right {
+        background-size: 190% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 200% !important;
+    }
+
+    .img-cover-left {
+        background-size: 240% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 250% !important;
+    }
 }
 
 @media screen and (max-width: 410px) {
     .heading-1 {
         font-size: 40px;
+    }
+
+    .img-cover-right {
+        background-size: 210% !important;
+    }
+    
+    .img-cover-right:hover {
+        background-size: 220% !important;
+    }
+
+    .img-cover-left {
+        background-size: 260% !important;
+    }
+
+    .img-cover-left:hover {
+        background-size: 270% !important;
     }
 }
