@@ -37,9 +37,11 @@ body {
 }
 
 .text-shadow {
-    letter-spacing: 2px;
-    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 500;
     text-shadow: #ffffff34 0px 0px 10px;
+    font-family: "Urbanist", sans-serif;
 }
 
 .img {
@@ -80,7 +82,7 @@ body {
 }
 
 .heading-about {
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 0px;
     font-weight: 700;
     color: black;
@@ -241,14 +243,21 @@ body {
     padding-top: 25px;
 }
 
-.color-palette {
-    margin-top: 120px;
+.heading-palette {
+    font-size: 70px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: black;
 }
 
-.cover-palette {
+.color-palette {
+    margin-top: 60px;
+}
+
+/* .cover-palette {
     height: 140px;
     transform: rotate(0deg);
-}
+} */
 
 .color-palette-1 {
     background-color: #000000;
@@ -263,7 +272,7 @@ body {
 .color-palette-3 {
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.158);
-    border-right: none;
+    /* border-right: none; */
     transition: all 0.4s ease-in-out;
 }
 
