@@ -197,7 +197,7 @@ body {
 
 .img-list {
     position: relative;
-    height: auto;
+    height: 600px;
 }
   
 .img-list::before {
@@ -209,7 +209,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     filter: 
-        brightness(45%)
+        brightness(30%)
         blur(0px)
         saturate(1)
     ;
