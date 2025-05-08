@@ -197,7 +197,7 @@ body {
 
 .img-list {
     position: relative;
-    height: 600px;
+    height: auto;
 }
   
 .img-list::before {
@@ -252,7 +252,7 @@ body {
 }
 
 .color-palette {
-    margin-top: 60px;
+    margin-top: 300px;
 }
 
 /* .cover-palette {
@@ -272,7 +272,6 @@ body {
 
 .color-palette-3 {
     background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.158);
     /* border-right: none; */
     transition: all 0.4s ease-in-out;
 }
